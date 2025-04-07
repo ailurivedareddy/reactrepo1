@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 500px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+input[type="password"],
+input[type="text"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 5px;
+}
+#gendersection{
+  display: flex;
+  gap:20px;
+  align-items: center;
+}
+#hobbiessection{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
