@@ -91,6 +91,7 @@ function Login() {
   };
 
   return (
+    <>
     <div>
       <h2>Login</h2>
       <form onSubmit={handleLogin}>
@@ -108,6 +109,7 @@ function Login() {
         <button type="submit">Login</button>
       </form>
     </div>
+    </>
   );
 }
 
